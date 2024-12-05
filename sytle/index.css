@@ -4,6 +4,9 @@
 *{
     margin: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 .contener{
     width: 1280px;
     height: 3000px;
@@ -100,7 +103,7 @@
     color: aliceblue;
     font-size: 20px;
     margin-left: 20%;
-    margin-top: 10%;
+    margin-top: 9%;
 
 }
 .text1{
@@ -108,7 +111,7 @@ color: aliceblue;
 font-family: "Trade Winds", system-ui;
 font-size: 50px;
 margin-left: 20%;
-line-height: 90px;
+line-height: 85px;
 margin-top: 5%;
 }
 .text2{
@@ -133,6 +136,8 @@ margin-top: 5%;
     width: 400px;
     height: 370px;
     border-radius: 50%;
+    border: 4px dotted blue;
+   
 }
 @keyframes floadImage {
   0% {
@@ -154,18 +159,19 @@ margin-top: 5%;
     animation: floadImage 4s ease-in-out infinite;
   }
 .imge-on{
- 
-    margin-top: -33.4%;
+   
+    margin-top: -28.4%;
     margin-left: 58%; 
 }
 .imge-on img{
     width: 350px;
+    margin-top: -10%;
 }
 .off{
     width: 1280px;
     height: 100px;
     background-color: rgb(0, 0, 0);
-    margin-top: -3%;
+    margin-top: -5%;
     position: absolute;
 }
     
@@ -179,7 +185,7 @@ margin-top: 5%;
 #Project{
     width: 1280px;
     height: 1280px;
-  
+    
     
    
 }
@@ -201,11 +207,12 @@ margin-top: 5%;
 .about{
     width: 400px;
     height: 400px;
-    background-color: aqua;
     border-radius: 50%;
     position: absolute;
     margin-top: 10%;
     margin-left: 7%;
+    border: 4px dashed blue;
+
   
 }
 .about img{
@@ -248,7 +255,7 @@ margin-top: 5%;
 .img-vs{
     width: 70px;
     height: 70px;
-    
+
     position: absolute;
     margin-top: 30%;
     margin-left: 7%;
@@ -262,16 +269,16 @@ margin-top: 5%;
 .Eduction{
     width: 400px;
     height: 400px;
-    background-color: aqua;
     border-radius: 50%;
     position: absolute;
-
     margin-left: 60%;  
 }
 .Eduction img{
     width: 100%;
     height: 100%;
     border-radius: 50%;
+    border: 4px dashed blue;
+
 
 }
 .Eduction-text{
@@ -545,4 +552,83 @@ input{
     background-color: black;
     height: 700px;
 }
-    
+
+  .home-content h1 {
+    color: #275a91;
+    font-size: 3.2rem;
+    font-weight: 700;
+  }
+  
+  .home-content h1:nth-last-of-type(2) {
+    margin-bottom: 2rem;
+  }
+  
+  .home-content h1 span {
+    color: #fff;
+  }
+  
+  .home-content p {
+    font-size: 1.6rem;
+    color: #fff;
+  }
+  
+  .home-img img {
+    box-shadow: 0 0 1.3rem #275a91;
+    border: 5px dashed #275a91;
+    border-radius: 50%;
+    overflow: hidden;
+    z-index: 100;
+    width: 400px;
+    height: 400px;
+  }
+  
+  .social-media {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-left: 10%;
+  }
+  
+  .social-media a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: 2px solid #275a91;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: #fff;
+    margin: 3rem 1.5rem 2rem 0;
+    box-shadow: 0 0 1rem #275a91;
+    transition: all 0.3s ease;
+  }
+  
+  .social-media a:hover {
+    background-color: #fff;
+    color: #383bff;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    box-shadow: 0 0 1rem #782791;
+    font-size: 1.6rem;
+    letter-spacing: 0.2rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+  }
+  
+  .btn:hover {
+    color: #275a91;
+    background: #fff;
+    transition: 0.7s ease;
+  }
